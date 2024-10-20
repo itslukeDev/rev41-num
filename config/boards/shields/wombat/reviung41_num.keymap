@@ -42,7 +42,7 @@
     compatible = "zmk,keymap";
 
     letters {
-      display-name = "Az";
+      display-name = "Colemak";
       bindings = <
       &mt ESC GRAVE   &kp N1        &kp N2      &kp N3     &kp N4      &kp N5          &kp N6 &kp N7     &kp N8        &kp N9        &mt MINUS N0  &mt RBRC MINUS
       &kp TAB         &kp Q         &kp W       &kp F      &kp P       &kp G           &kp J  &kp L      &kp U         &kp Y         &kp SEMI      &mt LBRC EQUAL
@@ -51,6 +51,21 @@
                                                 &lt 1 BSPC &kp RET           &kp SPACE        &kp TAB    &lt 1 DEL
       >;
     };
+
+/*/
+
+    letters {
+      display-name = "QWERTY";
+      bindings = <
+      &mt ESC GRAVE   &kp N1        &kp N2      &kp N3     &kp N4      &kp N5          &kp N6 &kp N7     &kp N8        &kp N9        &mt MINUS N0  &mt RBRC MINUS
+      &kp TAB         &kp Q         &kp W       &kp E      &kp R       &kp T           &kp Y  &kp U      &kp I         &kp O         &kp P         &mt LBRC EQUAL
+      &caps_word      &mt LSHIFT A  &mt LCTRL S &mt LALT D &mt LCMD F  &kp G           &kp H  &mt RCMD J &mt RALT L    &mt RCTRL K   &mt RSHFT SEMI   &kp SQT
+      &kp GLOBE       &kp Z         &kp X       &kp C      &kp V       &kp B           &kp N  &kp M      &kp COMMA     &kp DOT       &kp FSLH      &kp BSLH
+                                                &lt 1 BSPC &kp RET           &kp SPACE        &kp TAB    &lt 1 DEL
+      >;
+    };
+
+*/
 
     function {
       display-name = "FN";
