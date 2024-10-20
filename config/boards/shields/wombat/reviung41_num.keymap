@@ -23,8 +23,8 @@
 
     combo_ctrl {
       timeout-ms = <100>;
-      key-positions = <31 32>;
-      bindings = <&tog 2>;
+      key-positions = <48 52>;
+      bindings = <&tog 1>;
     };
   };
 
