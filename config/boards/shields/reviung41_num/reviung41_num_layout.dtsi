@@ -1,7 +1,7 @@
 #include <physical_layouts.dtsi>
 
 / {
-    layout_0: layout_0 {
+    reviung41_num_layout: reviung41_num_layout {
         compatible = "zmk,physical-layout";
         display-name = "reviung41#";
 
