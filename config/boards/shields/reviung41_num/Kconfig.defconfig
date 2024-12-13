@@ -4,6 +4,6 @@
 if SHIELD_REVIUNG41_NUM
 
 config ZMK_KEYBOARD_NAME
-	default "Canaan's Fingers"
+	default "Rev41#"
 
 endif
