@@ -68,7 +68,7 @@
 			bindings = <
 			&trans          &trans        &trans        &trans     &trans       &trans          &trans    &trans     &trans        &trans        &trans          &trans
 			&trans          &trans        &trans        &trans     &trans       &trans          &trans    &trans     &trans        &trans        &trans          &trans
-			&trans          &trans        &mt LCTRL F   &trans     &mt LCMD F   &trans          &trans    &mt RCMD J &trans        &trans        &mt LCTRL F     &trans
+			&trans          &trans        &mt LCTRL F   &trans     &mt LCMD F   &trans          &trans    &mt RCMD J &trans        &mt RCTRL F   &trans          &trans
 			&trans          &trans        &trans        &trans     &trans       &trans          &trans    &trans     &trans        &trans        &trans          &trans
 			&trans    &trans             &trans          &trans      &trans
 			>;
