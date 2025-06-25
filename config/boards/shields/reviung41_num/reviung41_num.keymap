@@ -129,7 +129,7 @@
 		function {
 			display-name = "FN";
 			bindings = <
-			&mt ESC GRAVE   &kp F1        &kp F2      &kp F3     &kp F4      &kp F5          &kp F6       &kp F7       &kp F8        &kp F9        &kp F10      &mt F12 F11
+			&kp ESC         &kp F1        &kp F2      &kp F3     &kp F4      &kp F5          &kp F6       &kp F7       &kp F8        &kp F9        &kp F10      &mt F12 F11
 			&kp TAB         &kp HOME      &kp UP     &kp PG_UP   &none       &none           &none        &kp C_MUTE   &kp C_VOL_DN  &kp C_VOL_UP  &none        &out OUT_BLE
 			&studio_unlock  &kp LEFT      &kp DOWN   &kp RIGHT   &none       &none           &none        &kp RCMD     &kp RSHIFT    &kp RALT      &kp RCTRL    &out OUT_USB
 			&kp GLOBE       &kp END       &none      &kp PG_DN   &none       &none           &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 &bt BT_CLR
