@@ -87,7 +87,7 @@
 			bindings = <
 			&mt ESC GRAVE   &kp N1        &kp N2      &kp N3       &kp N4         &kp N5          &kp N6   &kp N7        &kp N8        &kp N9        &kp N0          &mt RBKT MINUS
 			&kp TAB         &kp Q         &kp W       &kp E        &kp R          &kp T           &kp Y    &kp U         &kp I         &kp O         &kp P           &mt LBKT EQUAL
-			&caps_word      &hml LCMD A &hml LALT S  &hml LCTRL D  &hml LSHIFT F   &kp G           &kp H    &hmr RSHIFT J  &hmr RCTRL K   &hmr RALT L   &hmr RCMD SEMI &kp SQT
+			&caps_word      &hml LCMD A &hml LALT S &hml LSHIFT D  &hml LCTRL F   &kp G           &kp H    &hmr RCTRL J  &hmr RSHIFT K   &hmr RALT L   &hmr RCMD SEMI &kp SQT
 			&kp GLOBE       &kp Z         &kp X       &kp C        &kp V          &kp B           &kp N    &kp M         &kp COMMA     &kp DOT       &kp FSLH        &kp BSLH
 			&lt 4 TAB  &kp RET            &kp SPACE        &kp BSPC    &lt 4 DEL
 			>;
@@ -98,7 +98,7 @@
 			bindings = <
 			&trans          &trans        &trans        &trans     &trans       &trans          &trans    &trans       &trans        &trans        &trans          &trans
 			&trans          &trans        &trans        &trans     &trans       &trans          &trans    &trans       &trans        &trans        &trans          &trans
-			&trans          &hml LCTRL A  &trans        &hml LCMD F &trans      &trans          &hmr RCMD J &trans     &trans        &trans        &hmr RCTRL SEMI &trans
+			&trans          &hml LCTRL A  &trans        &trans     &hml LCMD F  &trans          &trans    &hmr RCMD J  &trans        &trans        &hmr RCTRL SEMI &trans
 			&trans          &trans        &trans        &trans     &trans       &trans          &trans    &trans       &trans        &trans        &trans          &trans
 			&trans    &trans             &trans          &trans      &trans
 			>;
@@ -131,7 +131,7 @@
 			bindings = <
 			&kp ESC         &kp F1        &kp F2      &kp F3     &kp F4      &kp F5          &kp F6       &kp F7       &kp F8        &kp F9        &kp F10      &mt F12 F11
 			&kp TAB         &kp HOME      &kp UP     &kp PG_UP   &none       &none           &none        &kp C_MUTE   &kp C_VOL_DN  &kp C_VOL_UP  &none        &out OUT_BLE
-			&studio_unlock  &kp LEFT      &kp DOWN   &kp RIGHT   &none       &none           &none        &kp RSHIFT     &kp RCMD    &kp RALT      &kp RCTRL    &out OUT_USB
+			&studio_unlock  &kp LEFT      &kp DOWN   &kp RIGHT   &none       &none           &none        &kp RCMD     &kp RSHIFT    &kp RALT      &kp RCTRL    &out OUT_USB
 			&kp GLOBE       &kp END       &none      &kp PG_DN   &none       &none           &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4 &bt BT_CLR
 			&tog 4     &kp RET           &kp SPACE              &kp BSPC     &tog 4
 			>;
